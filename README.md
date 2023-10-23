@@ -4,7 +4,6 @@ Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 Best Source code support Android Studio easy use
 
 # Images
-<img alt="Homepage" src="https://github.com/NhatNguyen2612/Mbbank/blob/main/Images/Screenshot_20231023-172800_MB%20Bank.png" />
 <img src="Images/Screenshot_20231023-172800_MB%20Bank.png" width="200" />
 ## How to use?
 1. Download latest release [here](https://github.com/KhanhNguyen9872/Anti-DDOS_Win/releases)
