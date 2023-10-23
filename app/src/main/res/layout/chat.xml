@@ -1,0 +1,101 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#141ED3"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="15dp"
+			android:layout_marginLeft="10dp"
+			android:src="@drawable/back1"
+			android:scaleType="fitCenter" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="Chat Online"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1" />
+		<ImageView
+			android:id="@+id/imageview2"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_marginRight="10dp"
+			android:src="@drawable/home"
+			android:scaleType="fitCenter" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:layout_weight="1">
+		<ListView
+			android:id="@+id/listview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:choiceMode="none"
+			android:layout_weight="1"
+			android:divider="@null"
+			android:dividerHeight="10dp" />
+		<ImageView
+			android:id="@+id/anh"
+			android:layout_width="300dp"
+			android:layout_height="300dp"
+			android:src="@drawable/default_image"
+			android:scaleType="fitCenter"
+			android:layout_gravity="right" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:background="#212D3B"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<EditText
+			android:id="@+id/tinnhan"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="@android:color/transparent"
+			android:textSize="16sp"
+			android:textColor="#FFFFFF"
+			android:hint="Nhập tin nhắn"
+			android:textColorHint="#607D8B"
+			android:layout_weight="1"
+			android:windowSoftInputMode="adjustPan|adjustResize|adjustNothing" />
+		<ImageView
+			android:id="@+id/imageview3"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_margin="5dp"
+			android:src="@drawable/ic_attachment_grey"
+			android:scaleType="fitCenter"
+			android:rotation="140" />
+		<ImageView
+			android:id="@+id/gui"
+			android:layout_width="22dp"
+			android:layout_height="22dp"
+			android:layout_margin="5dp"
+			android:src="@drawable/send"
+			android:scaleType="fitCenter" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,151 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#2196F3"
+			android:orientation="horizontal">
+			<com.airbnb.lottie.LottieAnimationView
+				android:id="@+id/lottie1"
+				android:layout_width="match_parent"
+				android:layout_height="300dp"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:scaleType="fitCenter"
+				android:layout_centerInParent="true"
+				app:lottie_fileName="your_file.json"
+				app:lottie_loop="true"
+				app:lottie_autoPlay="true" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="ĐÃ CÓ BẢN CẬP NHẬT MỚI"
+				android:textSize="20sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/ver"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="1.0"
+				android:textSize="20sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Tính năng mới"
+				android:textSize="18sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/log"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="14sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50dp"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Download:"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/phantram"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="0%"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<ProgressBar
+				android:id="@+id/progressbar1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:indeterminate="false"
+				style="?android:progressBarStyleHorizontal"
+				android:progressDrawable="@drawable/progress"
+				android:minHeight="20dip"
+				android:maxHeight="20dip" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="300dp"
+				android:layout_height="40dp"
+				android:layout_marginBottom="10dp"
+				android:padding="8dp"
+				android:background="#F48FB1"
+				android:text="Update Now"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="300dp"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:background="#FF1744"
+				android:text="INSTALL APK"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,245 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="5dp"
+		android:background="@drawable/src_assets_images_bgsharetransfer"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="100dp"
+				android:layout_height="50dp"
+				android:layout_marginLeft="70dp"
+				android:src="@drawable/mblogo"
+				android:scaleType="fitCenter"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="25dp"
+				android:layout_height="25dp"
+				android:src="@drawable/src_assets_images_engx3"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:text="ENG"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Đăng Nhập"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF"
+				android:hint="Tên Đăng Nhập"
+				android:textColorHint="#FFFFFF" />
+			<EditText
+				android:id="@+id/edittext2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="25dp"
+				android:padding="8dp"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF"
+				android:hint="Mật Khẩu"
+				android:textColorHint="#FFFFFF" />
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:padding="8dp"
+				android:text="Đăng Nhập"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Quên Mật Khẩu \?"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<LinearLayout
+					android:id="@+id/linear10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1" />
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Tạo Tài Khoản"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageview9"
+			android:layout_width="30dp"
+			android:layout_height="15dp"
+			android:src="@drawable/eye"
+			android:scaleType="fitCenter"
+			android:translationX="340.0dp"
+			android:translationY="-190.0dp" />
+		<LinearLayout
+			android:id="@+id/linear16"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="185dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/linear11"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear12"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginRight="50dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<ImageView
+						android:id="@+id/imageview3"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:layout_marginBottom="10dp"
+						android:src="@drawable/quetqr"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/textview5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Quét QR"
+						android:textSize="12sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear13"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginRight="50dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<ImageView
+						android:id="@+id/imageview4"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/dotg"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/textview6"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Xác Thực\n   D-OTG"
+						android:textSize="11sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear14"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginRight="50dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<ImageView
+						android:id="@+id/imageview5"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:layout_marginBottom="10dp"
+						android:src="@drawable/tienich"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/textview7"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Tiện Ích"
+						android:textSize="12sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear15"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<ImageView
+						android:id="@+id/imageview6"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/embee"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/textview8"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Chát với\neMBee"
+						android:textSize="12sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

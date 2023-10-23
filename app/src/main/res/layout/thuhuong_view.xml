@@ -1,0 +1,85 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear6"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/logobank"
+			android:focusable="false"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="10dp"
+			android:src="@drawable/src_assets_images_logo_bank_csxh_14"
+			android:scaleType="fitCenter" />
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/tentaikhoan"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="HOANG MINH QUAN"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000" />
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="20dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/sotaikhoan"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="04757183810"
+					android:textSize="12sp"
+					android:textColor="#616161" />
+				<TextView
+					android:id="@+id/khoangcach"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:text="-"
+					android:textSize="12sp"
+					android:textColor="#616161" />
+				<TextView
+					android:id="@+id/chuyennhanh"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Chuyển nhanh"
+					android:textSize="12sp"
+					android:textColor="#616161" />
+			</LinearLayout>
+			<TextView
+				android:id="@+id/bankname"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="15dp"
+				android:text="Quân đội (MB)"
+				android:textSize="12sp"
+				android:textColor="#616161" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

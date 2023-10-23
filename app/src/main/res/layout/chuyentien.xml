@@ -1,0 +1,238 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:padding="8dp"
+		android:background="#0B2BC9"
+		android:gravity="bottom"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="wrap_content"
+				android:layout_height="15dp"
+				android:layout_marginLeft="5dp"
+				android:src="@drawable/back1"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Chuyển tiền"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="25dp"
+				android:layout_height="25dp"
+				android:layout_marginRight="5dp"
+				android:src="@drawable/home"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#ECEFF1"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="170dp"
+				android:layout_height="55dp"
+				android:layout_marginRight="20dp"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview3"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/src_assets_images_qr_new_img"
+					android:scaleType="fitCenter" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Quét QR"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="170dp"
+				android:layout_height="55dp"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview4"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/noob"
+					android:scaleType="fitCenter" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Giao dịch\ntách lệnh"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="360dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview5"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:src="@drawable/src_assets_images_new_transfer_img"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Người thụ hưởng mới"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear8"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:padding="3dp"
+				android:gravity="center_horizontal"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear10"
+					android:layout_width="120dp"
+					android:layout_height="40dp"
+					android:layout_marginRight="10dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="STK đã lưu"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#0B2BC9" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear11"
+					android:layout_width="100dp"
+					android:layout_height="40dp"
+					android:layout_marginRight="10dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview6"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Gần đây"
+						android:textSize="14sp"
+						android:textColor="#9E9E9E" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear12"
+					android:layout_width="130dp"
+					android:layout_height="40dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview7"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Mẫu giao dịch"
+						android:textSize="14sp"
+						android:textColor="#9E9E9E" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear13"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview6"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/seach"
+					android:scaleType="fitCenter" />
+				<EditText
+					android:id="@+id/edittext1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:background="@android:color/transparent"
+					android:textSize="16sp"
+					android:textColor="#9E9E9E"
+					android:hint="Tìm tên/STK người thụ hưởng"
+					android:textColorHint="#9E9E9E" />
+			</LinearLayout>
+			<ListView
+				android:id="@+id/listview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:choiceMode="none" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
