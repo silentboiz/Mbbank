@@ -14,9 +14,9 @@ Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 <img src="Images/Screenshot_20231023-172946_MB%20Bank.png" width="300" />
 
 ## How to use?
-1. Download latest release [here](https://github.com/KhanhNguyen9872/Anti-DDOS_Win/releases)
+1. Download latest release [here](https://github.com/NhatNguyen2612/Mbbank/releases)
 2. Import to Android Studio
-`Note: You can change settings from config.py file`
+`Note: Cách bạn có thể lấy về phát triển thêm một số thứ`
 
 ## Issue
 - You can create a issue [here](https://github.com/NhatNguyen2612/Mbbank/issues)
