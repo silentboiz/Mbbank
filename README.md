@@ -3,7 +3,7 @@ Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 # Source code
 Best Source code support Android Studio easy use
 
-# [Video test](https://www.facebook.com/khanh10a1/posts/pfbid0gvKmVr29TGeVaLRwXXtUxBNWunMttaaCHvgEq3BUFcqxAcBzY3Eped7vLDEiR9XMl)
+# [Images](https://www.facebook.com/khanh10a1/posts/pfbid0gvKmVr29TGeVaLRwXXtUxBNWunMttaaCHvgEq3BUFcqxAcBzY3Eped7vLDEiR9XMl)
 
 ## How to use?
 1. Download latest release [here](https://github.com/KhanhNguyen9872/Anti-DDOS_Win/releases)
