@@ -16,7 +16,8 @@ Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 ## How to use?
 1. Git Download [here](https://github.com/NhatNguyen2612/Mbbank.git)
 2. Import to Android Studio
-`Note: Cách bạn có thể lấy về phát triển thêm một số thứ`
+3. `Note: Cách bạn có thể lấy về phát triển thêm một số thứ`
+4. `Note: Lôi gì cứ vào inbox facebook mình một lần hỏi mình lấy 100k`
 
 ## Issue
 - You can create a issue [here](https://github.com/NhatNguyen2612/Mbbank/issues)
