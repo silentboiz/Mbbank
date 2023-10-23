@@ -1,7 +1,10 @@
 # Mbbank
 Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
-# Source code
-Best Source code support Android Studio easy use
+# Mã nguồn mở
+Mã nguồn mở dễ sử dụng
+Hệ thộng cập nhật ứng dụng online
+Code được format chuẩn nhất thế giới giúp dễ đọc
+Logic
 
 # Images
 <img src="Images/Screenshot_20231023-172800_MB%20Bank.png" width="300" />
