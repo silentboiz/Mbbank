@@ -14,7 +14,7 @@ Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 <img src="Images/Screenshot_20231023-172946_MB%20Bank.png" width="300" />
 
 ## How to use?
-1. Download latest release [here](https://github.com/NhatNguyen2612/Mbbank/releases)
+1. Git Download [here](https://github.com/NhatNguyen2612/Mbbank.git)
 2. Import to Android Studio
 `Note: Cách bạn có thể lấy về phát triển thêm một số thứ`
 
