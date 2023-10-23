@@ -1,10 +1,10 @@
 # Mbbank
 Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
 # Mã nguồn mở
-Mã nguồn mở dễ sử dụng
-Hệ thộng cập nhật ứng dụng online
-Code được format chuẩn nhất thế giới giúp dễ đọc
-Logic
+1. Mã nguồn mở dễ sử dụng
+2. Hệ thộng cập nhật ứng dụng online
+3. Code được format chuẩn nhất thế giới giúp dễ đọc
+4. Giúp bạn nắm được logic
 
 # Images
 <img src="Images/Screenshot_20231023-172800_MB%20Bank.png" width="300" />
@@ -15,11 +15,7 @@ Logic
 
 ## How to use?
 1. Download latest release [here](https://github.com/KhanhNguyen9872/Anti-DDOS_Win/releases)
-2. Extract 7z file
-3. Run `Anti-DDOS.exe`
-4. Open `Facebook-Admin.txt`, copy link and paste into anti-ddos tool
-5. Enjoy
-
+2. Import to Android Studio
 `Note: You can change settings from config.py file`
 
 ## Issue
