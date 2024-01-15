@@ -1,10 +1,8 @@
 # Mbbank
-Mbbank source make by Quang Nhật Dubai đẳng cấp nhất Việt Nam
+Mbbank source code
 # Mã nguồn mở
 1. Mã nguồn mở dễ sử dụng
 2. Hệ thộng cập nhật ứng dụng online
-3. Code được format chuẩn nhất thế giới giúp dễ đọc
-4. Giúp bạn nắm được logic
 
 # Images
 <img src="Images/Screenshot_20231023-172800_MB%20Bank.png" width="300" />
