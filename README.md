@@ -12,12 +12,12 @@ Mbbank source code
 <img src="Images/Screenshot_20231023-172946_MB%20Bank.png" width="300" />
 
 ## How to use?
-1. Git Download [here](https://github.com/NhatNguyen2612/Mbbank.git)
+1. Git Download [here](https://github.com/silentboiz/Mbbank.git)
 2. Import to Android Studio
 3. `Note: Cách bạn có thể lấy về phát triển thêm một số thứ`
 
 ## Issue
-- You can create a issue [here](https://github.com/NhatNguyen2612/Mbbank/issues)
+- You can create a issue [here](https://github.com/silentboiz/Mbbank/issues)
 
 # Powered by NguyenNhat2612
 
