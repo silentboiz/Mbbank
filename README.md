@@ -19,6 +19,6 @@ Mbbank source code
 ## Issue
 - You can create a issue [here](https://github.com/silentboiz/Mbbank/issues)
 
-# Powered by NguyenNhat2612
+# Powered by silentboiz
 
 # Tải APK Demo dưới Releases 👇
